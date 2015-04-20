@@ -1,0 +1,5 @@
+/npm-packages/*
+!/npm-packages/.keep
+/vim/bundle
+/vim/sessions/*
+!/vim/sessions/.keep

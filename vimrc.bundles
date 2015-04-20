@@ -1,0 +1,47 @@
+if &compatible
+  set nocompatible
+endif
+
+filetype off
+set rtp+=~/.vim/bundle/vundle
+call vundle#begin()
+
+Plugin 'xolox/vim-misc'
+Plugin 'lokaltog/vim-easymotion'
+Plugin 'rstacruz/sparkup', { 'rtp': 'vim/' }
+Plugin 'wincent/Command-T'
+Plugin 'pbrisbin/vim-mkdir'
+Plugin 'tpope/vim-eunuch'
+Plugin 'wesQ3/vim-windowswap'
+Plugin 'bling/vim-airline'
+Plugin 'scrooloose/nerdtree'
+Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'vim-scripts/taglist.vim'
+Plugin 'xolox/vim-session'
+Plugin 'szw/vim-tags'
+Plugin 'scrooloose/syntastic'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'tpope/vim-surround'
+Plugin 'tmhedberg/matchit'
+Plugin 'andrewradev/splitjoin.vim'
+Plugin 'vim-scripts/tComment'
+Plugin 'tpope/vim-endwise'
+Plugin 'Chiel92/vim-autoformat'
+Plugin 'tpope/vim-ragtag'
+Plugin 'mattn/emmet-vim'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
+Plugin 'tpope/vim-bundler'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-rails'
+Plugin 'thoughtbot/vim-rspec'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'tpope/vim-markdown'
+Plugin 'f7k/vim-instant-markdown'
+Plugin 'slim-template/vim-slim'
+Plugin 'pangloss/vim-javascript'
+Plugin 'elzr/vim-json'
+Plugin 'mustache/vim-mustache-handlebars', { 'for': 'handlebars' }
+
+call vundle#end()
+filetype on

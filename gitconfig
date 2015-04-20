@@ -1,0 +1,25 @@
+[user]
+	name = f7k
+	email = c083f57c786@hotmail.com
+	signingkey = f7k (git) <c083f57c786@hotmail.com>
+[core]
+	autocrlf = input
+	editor = vim
+[color]
+	ui = true
+[commit]
+	template = ~/.gitmessage
+[alias]
+	co = checkout
+	br = branch
+	ci = commit -v
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	ca = commit --amend -v
+	cm = commit -v -m
+	stash-unapply = !git stash show -p | git apply -R
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
+[mergetool]
+	prompt = false
