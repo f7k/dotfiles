@@ -1,0 +1,12 @@
+---
+IrresponsibleModule:
+  enabled: false
+TooManyStatements:
+  exclude:
+    - !ruby/regexp /Create\w+#change/ # ignore migrations
+UncommunicativeVariableName:
+  exclude:
+    - !ruby/regexp /Create\w+#change/ # ignore migrations
+FeatureEnvy:
+  exclude:
+    - !ruby/regexp /Create\w+#change/ # ignore migrations
