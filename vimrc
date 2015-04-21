@@ -63,7 +63,7 @@ au BufNewFile,BufRead .jshintrc      set filetype=json
 au BufNewFile,BufRead .vagrant-shell set filetype=sh
 au BufNewFile,BufRead *.ejs          set filetype=html
 au BufNewFile,BufRead *.es6          set filetype=javascript
-au BufNewFile,BufRead *.reek         set filetype=ruby
+au BufNewFile,BufRead *.reek         set filetype=yaml
 
 "
 " Keyboard layout
