@@ -42,6 +42,7 @@ Plugin 'slim-template/vim-slim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'elzr/vim-json'
 Plugin 'mustache/vim-mustache-handlebars', { 'for': 'handlebars' }
+Plugin 'tpope/vim-fugitive'
 
 call vundle#end()
 filetype on
