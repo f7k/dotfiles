@@ -7,6 +7,9 @@ TooManyStatements:
 UncommunicativeVariableName:
   exclude:
     - !ruby/regexp /Create\w+#change/ # ignore migrations
+UncommunicativeModuleName:
+  exclude:
+    - !ruby/regexp /API::V\d+/        # ignore API versions
 FeatureEnvy:
   exclude:
     - !ruby/regexp /Create\w+#change/ # ignore migrations
