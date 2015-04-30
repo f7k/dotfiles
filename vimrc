@@ -52,6 +52,7 @@ filetype plugin indent on
 au Syntax markdown setlocal wrap linebreak nolist nofoldenable colorcolumn=80
 
 au Filetype coffee     setlocal ts=2 sw=2
+au Filetype cucumber   setlocal ts=2 sw=2
 au Filetype html*      setlocal ts=2 sw=2
 au Filetype javascript setlocal ts=2 sw=2
 au Filetype ruby       setlocal ts=2 sw=2
@@ -128,6 +129,7 @@ let g:syntastic_always_populate_loc_list=1
 let g:syntastic_auto_loc_list=1
 let g:syntastic_check_on_open=1
 let g:syntastic_check_on_wq=1
+let g:syntastic_cucumber_checkers=[""]
 
 " TagList
 let Tlist_Compact_Format=1
