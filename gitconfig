@@ -18,6 +18,7 @@
 	ca = commit --amend -v
 	cm = commit -v -m
 	stash-unapply = !git stash show -p | git apply -R
+	cb = checkout -b
 [merge]
 	tool = vimdiff
 	conflictstyle = diff3
