@@ -55,6 +55,7 @@ au Filetype coffee     setlocal ts=2 sw=2
 au Filetype cucumber   setlocal ts=2 sw=2
 au Filetype html*      setlocal ts=2 sw=2
 au Filetype javascript setlocal ts=2 sw=2
+au Filetype json       setlocal ts=2 sw=2
 au Filetype ruby       setlocal ts=2 sw=2
 au Filetype vim        setlocal ts=2 sw=2
 au Filetype racc       setlocal ts=2 sw=2
